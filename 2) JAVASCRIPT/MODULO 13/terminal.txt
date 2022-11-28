@@ -1,0 +1,57 @@
+C:\Users\raulg\OneDrive\Desktop\OPEN BOOTCAMP\2) Javascript\Modulo 13\Ejercicio\sesion04-textos.js
+   3:5   error  'saludo_comillas_dobles' is assigned a value but never used   no-unused-vars
+   4:5   error  'saludo_comillas_simples' is assigned a value but never used  no-unused-vars
+   4:31  error  Strings must use doublequote                                  quotes
+   5:5   error  'mezcladas_dobles' is assigned a value but never used  
+       no-unused-vars
+   6:5   error  'mezcladas_simples' is assigned a value but never used 
+       no-unused-vars
+   6:25  error  Strings must use doublequote                           
+       quotes
+   7:5   error  'barra_dobles' is assigned a value but never used      
+       no-unused-vars
+   8:5   error  'barra_simples' is assigned a value but never used     
+       no-unused-vars
+   8:21  error  Strings must use doublequote                           
+       quotes
+   8:27  error  Unnecessary escape character: \"                       
+       no-useless-escape
+   8:40  error  Unnecessary escape character: \"                       
+       no-useless-escape
+  11:15  error  Strings must use doublequote                           
+       quotes
+  17:27  error  Strings must use doublequote                           
+       quotes
+  19:5   error  'str_backticks' is assigned a value but never used     
+       no-unused-vars
+  19:21  error  Strings must use doublequote                           
+       quotes
+
+✖ 15 problems (15 errors, 0 warnings)
+  6 errors and 0 warnings potentially fixable with the `--fix` option. 
+
+
+C:\Users\raulg\OneDrive\Desktop\OPEN BOOTCAMP\2) Javascript\Modulo 13\Ejercicio>npm run lint-fix
+
+> eslint-npm@1.0.0 lint-fix
+> eslint --fix .
+
+
+C:\Users\raulg\OneDrive\Desktop\OPEN BOOTCAMP\2) Javascript\Modulo 13\Ejercicio\sesion04-textos.js
+   3:5  error  'saludo_comillas_dobles' is assigned a value but never used   no-unused-vars
+   4:5  error  'saludo_comillas_simples' is assigned a value but never used  no-unused-vars
+   5:5  error  'mezcladas_dobles' is assigned a value but never used   
+      no-unused-vars
+   6:5  error  'mezcladas_simples' is assigned a value but never used  
+      no-unused-vars
+   7:5  error  'barra_dobles' is assigned a value but never used       
+      no-unused-vars
+   8:5  error  'barra_simples' is assigned a value but never used      
+      no-unused-vars
+  19:5  error  'str_backticks' is assigned a value but never used      
+      no-unused-vars
+
+✖ 7 problems (7 errors, 0 warnings)
+
+
+C:\Users\raulg\OneDrive\Desktop\OPEN BOOTCAMP\2) Javascript\Modulo 13\Ejercicio>
