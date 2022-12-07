@@ -1,0 +1,17 @@
+
+.col-sm {
+    background-color: aqua;
+    display: inline;
+}
+
+.col-md {
+    background-color: black;
+}
+
+.col-lg {
+    background-color: brown;
+}
+
+.col-xl {
+    background-color: blueviolet;
+}
